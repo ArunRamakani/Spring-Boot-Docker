@@ -9,6 +9,7 @@ VOLUME /tmp
 
 ENV APP_HOME /app
 ENV ARTIFACT_NAME ${ARTIFACT_NAME}
+ENV SPRING_PROFILES_ACTIVE dev
 
 COPY assets/entrypoint.sh ${APP_HOME}/entrypoint.sh
 

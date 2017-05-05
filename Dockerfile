@@ -1,6 +1,6 @@
-FROM openjdk:8-jre-alpine
+FROM frolvlad/alpine-oraclejdk8:slim
 
-MAINTAINER Florian Lopes <florian.lopes@outlook.com>
+MAINTAINER Arun Ramakani <energyarun.r@gmail.com>
 
 ARG SERVER_PORT=8080
 ARG DEBUG_PORT=8000

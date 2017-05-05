@@ -1,4 +1,4 @@
-# Lightweight Spring Boot Docker image based on Alpine + Docker Compose file
+# Spring Boot Docker with Alpine Linux + Oracle Java 8
 
 [![](https://images.microbadger.com/badges/image/flopes/spring-boot-docker.svg)](https://microbadger.com/images/flopes/spring-boot-docker "Get your own image badge on microbadger.com")
 
@@ -43,41 +43,3 @@ DEBUG_PORT              | 8000  | Debug port
 
 ### Inject environment variables:
 ```docker run -d -p 8080:8080 -e JAVA_OPTS=-Xms256m -Xmx512m spring-boot-image```
-
-## Using Docker Compose
-
-The `docker-compose.yml` file picks its configuration from the `.env` one.
-
-Using this file, you can set the desired properties:
-```
-# Docker properties
-IMAGE_NAME=spring-boot-docker
-
-# Application properties
-SERVER_PORT=8080
-DEBUG_PORT=8000
-SPRING_PROFILES_ACTIVE=dev
-DEBUG=false
-# -Dprop=... -Dparameter=...
-JAVA_OPTS=
-
-# Host properties
-HOST_SERVER_PORT=8080
-HOST_DEBUG_PORT=8000
-```
-
-## Debug mode
-To run the application in debug mode, simply set the `DEBUG` variable to true in the `.env` file.
-
-Launch the application:
-`docker-compose up -d`
-
-By default, the debug port used is the `8000`.
-
-## Spring profile(s)
-By default, the application will run with `dev` Spring profile
-
-To run the application with a specific Spring profile, set the desired one in the `.env` file:
-```
-SPRING_PROFILES_ACTIVE=dev
-```

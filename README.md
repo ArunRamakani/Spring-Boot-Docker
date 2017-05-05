@@ -19,9 +19,9 @@ DEBUG_PORT              | 8000  | Debug port
 
 ## How to use ?
 
-1. Simply extend your image from `flopes/spring-boot-docker` and set your application name as an environment variable:
+1. Simply extend your image from `arunramakani/spring-boot-docker` and set your application name as an environment variable:
     ``` Docker
-    FROM flopes/spring-boot-docker:1.0
+    FROM arunramakani/spring-boot-docker
     
     ENV ARTIFACT_NAME my-spring-boot-application.jar
     ```

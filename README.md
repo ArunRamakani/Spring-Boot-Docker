@@ -6,6 +6,7 @@
 [![](https://img.shields.io/docker/stars/flopes/spring-boot-docker.svg)](https://img.shields.io/docker/stars/flopes/spring-boot-docker.svg)
 
 Features:
+- Oracle Java 8 
 - Spring profiles
 - Custom JAVA_OPTS
 - Wrapper script that enables application to take PID 1 & receive SIGTERM signals

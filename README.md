@@ -6,6 +6,8 @@
 
 [![](https://img.shields.io/docker/pulls/arunramakani/spring-boot-docker.svg)](https://img.shields.io/docker/pulls/arunramakani/spring-boot-docker.svg)
 
+[![](https://img.shields.io/docker/stars/arunramakani/spring-boot-docker.svg)](https://img.shields.io/docker/stars/arunramakani/spring-boot-docker.svg)
+
 Features:
 - Oracle Java 8 
 - Spring profiles

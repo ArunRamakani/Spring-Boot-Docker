@@ -39,4 +39,4 @@ DEBUG_PORT              | 8000  | Debug port
     - Using Docker CLI
 
 ### Inject environment variables:
-```docker run -d -p 8080:8080 -e JAVA_OPTS=-Xms256m -Xmx512m SPRING_PROFILES_ACTIVE='test' spring-boot-image```
+```docker run -d -p 8080:8080 -e JAVA_OPTS='-Xms256m -Xmx512m' SPRING_PROFILES_ACTIVE='test' spring-boot-image```

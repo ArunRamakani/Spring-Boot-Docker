@@ -1,7 +1,5 @@
 # Spring Boot Docker with Alpine Linux + Oracle Java 8
 
-[![](https://images.microbadger.com/badges/image/arunramakani/spring-boot-docker.svg)](https://microbadger.com/images/arunramakani/spring-boot-docker "Get your own image badge on microbadger.com")
-
 [![](https://images.microbadger.com/badges/version/arunramakani/spring-boot-docker.svg)](https://microbadger.com/images/arunramakani/spring-boot-docker "Get your own version badge on microbadger.com")
 
 [![](https://img.shields.io/docker/pulls/arunramakani/spring-boot-docker.svg)](https://img.shields.io/docker/pulls/arunramakani/spring-boot-docker.svg)

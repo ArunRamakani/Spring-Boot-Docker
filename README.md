@@ -2,6 +2,8 @@
 
 [![](https://images.microbadger.com/badges/image/arunramakani/spring-boot-docker.svg)](https://microbadger.com/images/arunramakani/spring-boot-docker "Get your own image badge on microbadger.com")
 
+[![](https://images.microbadger.com/badges/version/arunramakani/spring-boot-docker.svg)](https://microbadger.com/images/arunramakani/spring-boot-docker "Get your own version badge on microbadger.com")
+
 Features:
 - Oracle Java 8 
 - Spring profiles

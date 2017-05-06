@@ -1,4 +1,4 @@
-# Spring Boot Docker with Alpine Linux + OpenJDK 8
+# Spring Boot Docker with OpenJDK 8
 
 [![](https://images.microbadger.com/badges/version/arunramakani/spring-boot-docker.svg)](https://microbadger.com/images/arunramakani/spring-boot-docker "Get your own version badge on microbadger.com")
 

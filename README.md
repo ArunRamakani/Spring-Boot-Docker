@@ -1,4 +1,4 @@
-# Spring Boot Docker with Alpine Linux + Oracle Java 8
+# Spring Boot Docker with Alpine Linux + OpenJDK 8
 
 [![](https://images.microbadger.com/badges/version/arunramakani/spring-boot-docker.svg)](https://microbadger.com/images/arunramakani/spring-boot-docker "Get your own version badge on microbadger.com")
 
@@ -7,7 +7,7 @@
 [![](https://img.shields.io/docker/stars/arunramakani/spring-boot-docker.svg)](https://img.shields.io/docker/stars/arunramakani/spring-boot-docker.svg)
 
 Features:
-- Oracle Java 8 
+- OpenJDK 8 
 - Spring profiles
 - Custom JAVA_OPTS
 - Wrapper script that enables application to take PID 1 & receive SIGTERM signals

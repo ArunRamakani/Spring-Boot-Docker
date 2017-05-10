@@ -1,10 +1,6 @@
 # Spring Boot Docker with OpenJDK 8
 
-[![](https://images.microbadger.com/badges/version/arunramakani/spring-boot-docker.svg)](https://microbadger.com/images/arunramakani/spring-boot-docker "Get your own version badge on microbadger.com")
-
-[![](https://img.shields.io/docker/pulls/arunramakani/spring-boot-docker.svg)](https://img.shields.io/docker/pulls/arunramakani/spring-boot-docker.svg)
-
-[![](https://img.shields.io/docker/stars/arunramakani/spring-boot-docker.svg)](https://img.shields.io/docker/stars/arunramakani/spring-boot-docker.svg)
+[![](https://images.microbadger.com/badges/version/arunramakani/spring-boot-docker.svg)](https://microbadger.com/images/arunramakani/spring-boot-docker "Get your own version badge on microbadger.com") [![](https://img.shields.io/docker/pulls/arunramakani/spring-boot-docker.svg)](https://img.shields.io/docker/pulls/arunramakani/spring-boot-docker.svg) [![](https://img.shields.io/docker/stars/arunramakani/spring-boot-docker.svg)](https://img.shields.io/docker/stars/arunramakani/spring-boot-docker.svg)
 
 Features:
 - OpenJDK 8 
